@@ -1,22 +1,22 @@
+import pandas as pd
 from sklearn.linear_model import LinearRegression
-import numpy as np
 
-#Dataset (Hours Studies vs Marks)
+# Read dataset
+data = pd.read_csv("student_marks.csv")
 
-X = np.array([[1],[2],[3],[4],[5]])
+# Input feature
+X = data[["Hours"]]
 
-y = np.array([20,35,50,65,80])
+# Target
+y = data["Marks"]
 
-# Create the model
-
+# Create model
 model = LinearRegression()
 
-#Train the model
+# Train model
+model.fit(X, y)
 
-model.fit(X,y)
-
-# Predict marks for a student who studied 6 hours
-
+# Predict
 prediction = model.predict([[6]])
 
 print("Predicted Marks:", prediction)
