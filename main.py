@@ -1,47 +1,53 @@
+
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
 
-# Read dataset
+# Load Dataset
 data = pd.read_csv("student_marks.csv")
 
-# Input feature
+# Input Feature and Target
 X = data[["Hours"]]
-
-# Target
 y = data["Marks"]
 
-# Create model
+# Split Dataset into Training and Testing Sets
+X_train, X_test, y_train, y_test = train_test_split(
+    X,
+    y,
+    test_size=0.2,
+    random_state=42
+)
+
+# Create Linear Regression Model
 model = LinearRegression()
 
-# Train model
-model.fit(X, y)
+# Train the Model
+model.fit(X_train, y_train)
 
-# Best Fit Line
+# Generate Best Fit Line
 line = model.predict(X)
 
-# Scatter Plot
-plt.scatter(X, y, color="blue")
+# Visualize Dataset
+plt.scatter(X, y, color="blue", label="Actual Data")
+plt.plot(X, line, color="red", label="Best Fit Line")
 
-# Best Fit Line
-plt.plot(X, line, color="red")
-
-# Graph Title
-plt.title("Hours Studied vs Marks")
-
-# X-axis Label
+# Graph Details
+plt.title("Student Marks Prediction using Linear Regression")
 plt.xlabel("Hours Studied")
-
-# Y-axis Label
-plt.ylabel("Marks")
-
-# Grid
+plt.ylabel("Marks Obtained")
 plt.grid(True)
+plt.legend()
 
-# Show Graph
+# Display Graph
 plt.show()
 
-# Predict for 6 hours
-prediction = model.predict([[6]])
+# Predict on Testing Data
+predictions = model.predict(X_test)
 
-print("Predicted Marks:", prediction)
+# Compare Predictions with Actual Values
+print("Predicted Values:")
+print(predictions)
+
+print("\nActual Values:")
+print(y_test.values)
