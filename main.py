@@ -3,6 +3,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_absolute_error
+from sklearn.metrics import mean_squared_error
+from sklearn.metrics import root_mean_squared_error
 
 # Load Dataset
 data = pd.read_csv("student_marks.csv")
@@ -51,3 +54,16 @@ print(predictions)
 
 print("\nActual Values:")
 print(y_test.values)
+
+mae = mean_absolute_error(y_test, predictions)
+
+print("\nMean Absolute Error (MAE):", mae)
+
+
+mse = mean_squared_error(y_test, predictions)
+
+print("Mean Squared Error (MSE):", mse)
+
+rmse = root_mean_squared_error(y_test, predictions)
+
+print("Root Mean Squared Error (RMSE):", rmse)
