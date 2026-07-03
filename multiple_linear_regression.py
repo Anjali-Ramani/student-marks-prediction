@@ -9,7 +9,7 @@ data = {
     "Marks": [40, 55, 70, 85, 95]
 }
 
-# Create DataFrame
+# Convert Dictionary to DataFrame
 df = pd.DataFrame(data)
 
 # Input Features
@@ -25,16 +25,6 @@ model = LinearRegression()
 model.fit(X, y)
 
 # Predict Student Marks
-new_student = pd.DataFrame({
-    "Hours": [5],
-    "Sleep": [8],
-    "Attendance": [95]
-})
-
-prediction = model.predict(new_student)
+prediction = model.predict([[5, 8, 95]])
 
 print("Predicted Marks:", prediction)
-
-# Model Information
-print("Coefficients:", model.coef_)
-print("Intercept:", model.intercept_)
