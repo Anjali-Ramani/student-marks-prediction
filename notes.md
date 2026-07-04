@@ -208,3 +208,31 @@ Classification predicts categories.
 - Trained Polynomial Regression model.
 - Predicted marks.
 - Visualized Polynomial Regression graph.
+
+# 📅 Day 8 - Logistic Regression
+
+## Topics Learned
+
+- Classification
+- Logistic Regression
+- Sigmoid Function
+- Probability
+- predict()
+- predict_proba()
+
+## Key Points
+
+- Logistic Regression is used for Classification problems.
+- It predicts categories instead of continuous values.
+- Output is always between 0 and 1.
+- Sigmoid Function converts output into probability.
+- If probability ≥ 0.5 → Class 1
+- If probability < 0.5 → Class 0
+- predict() returns the final class (0 or 1).
+- predict_proba() returns the probability of each class.
+
+## Project Update
+
+- Built first Logistic Regression model.
+- Predicted Pass/Fail.
+- Used predict_proba() to check confidence.
