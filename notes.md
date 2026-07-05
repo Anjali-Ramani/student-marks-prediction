@@ -236,3 +236,39 @@ Classification predicts categories.
 - Built first Logistic Regression model.
 - Predicted Pass/Fail.
 - Used predict_proba() to check confidence.
+
+# 📅 Day 9 - Confusion Matrix & Accuracy
+
+## Topics Learned
+
+- Accuracy
+- Confusion Matrix
+- True Positive (TP)
+- True Negative (TN)
+- False Positive (FP)
+- False Negative (FN)
+
+## Key Points
+
+- Accuracy tells how many predictions are correct.
+- Accuracy = Correct Predictions / Total Predictions.
+- Confusion Matrix shows detailed prediction results.
+- TP = Actual Pass, Predicted Pass.
+- TN = Actual Fail, Predicted Fail.
+- FP = Actual Fail, Predicted Pass.
+- FN = Actual Pass, Predicted Fail.
+
+## Output
+
+Accuracy: 100%
+
+Confusion Matrix:
+[[3 0]
+ [0 3]]
+
+Meaning:
+
+- TN = 3
+- FP = 0
+- FN = 0
+- TP = 3
