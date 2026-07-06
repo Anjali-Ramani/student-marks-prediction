@@ -272,3 +272,29 @@ Meaning:
 - FP = 0
 - FN = 0
 - TP = 3
+
+# 📅 Day 10 - Precision, Recall & F1-Score
+
+## Topics Learned
+
+- Precision
+- Recall
+- F1-Score
+- Classification Report
+
+## Key Points
+
+- Accuracy tells the overall percentage of correct predictions.
+- Precision = Out of all predicted positive cases, how many were actually positive.
+- Recall = Out of all actual positive cases, how many were correctly predicted.
+- F1-Score is the balance between Precision and Recall.
+- Support tells the number of actual samples in each class.
+- classification_report() prints Precision, Recall, F1-Score and Support together.
+
+## Output
+
+Precision: 1.00
+Recall: 1.00
+F1-Score: 1.00
+Accuracy: 100%
+Support: 3 samples for each class
