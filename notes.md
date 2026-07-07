@@ -298,3 +298,42 @@ Recall: 1.00
 F1-Score: 1.00
 Accuracy: 100%
 Support: 3 samples for each class
+
+# 📅 Day 11 - Data Preprocessing (Handling Missing Values)
+
+## Topics Learned
+
+- Data Preprocessing
+- Missing (Null) Values
+- isnull()
+- dropna()
+- fillna()
+
+## Key Points
+
+- Missing values are also called Null Values or NaN.
+- Most Machine Learning algorithms cannot handle missing values directly.
+- df.isnull() checks for missing values.
+- df.isnull().sum() counts missing values in each column.
+- dropna() removes rows containing missing values.
+- fillna() replaces missing values, commonly with the column mean.
+- Data preprocessing is an important step before training a Machine Learning model.
+
+## Output
+
+Missing Values:
+Hours = 1
+Sleep = 1
+Marks = 0
+
+Mean Values:
+Hours = 4.0
+Sleep = 7.25
+
+After fillna():
+
+- Missing Hours → 4.0
+- Missing Sleep → 7.25
+
+After dropna():
+Rows with missing values were removed.
