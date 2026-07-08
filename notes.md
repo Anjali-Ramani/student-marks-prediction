@@ -337,3 +337,36 @@ After fillna():
 
 After dropna():
 Rows with missing values were removed.
+
+# 📅 Day 12 - Feature Scaling
+
+## Topics Learned
+
+- Feature Scaling
+- Normalization
+- Standardization
+- MinMaxScaler
+- StandardScaler
+
+## Key Points
+
+- Feature Scaling makes all features have a similar scale.
+- It prevents features with larger values from dominating the model.
+- Normalization scales values between 0 and 1.
+- Standardization makes the mean approximately 0 and allows negative values.
+- MinMaxScaler is used for Normalization.
+- StandardScaler is used for Standardization.
+- Feature Scaling improves the performance of many Machine Learning algorithms.
+
+## Output
+
+Original Dataset:
+Hours = 2, 4, 6, 8, 10
+Income = 200000, 400000, 600000, 800000, 1000000
+
+After Normalization:
+Range = 0 to 1
+
+After Standardization:
+Mean ≈ 0
+Values include both negative and positive numbers.
