@@ -370,3 +370,40 @@ Range = 0 to 1
 After Standardization:
 Mean ≈ 0
 Values include both negative and positive numbers.
+
+# 📅 Day 13 - Encoding Categorical Data
+
+## Topics Learned
+
+- Categorical Data
+- Label Encoding
+- One-Hot Encoding
+- LabelEncoder
+- pd.get_dummies()
+
+## Key Points
+
+- Machine Learning models cannot understand text directly.
+- Encoding converts categorical data into numerical values.
+- Label Encoding assigns a number to each category.
+- One-Hot Encoding creates a separate column for each category.
+- One-Hot Encoding avoids the ordering problem.
+- LabelEncoder is used for Label Encoding.
+- pd.get_dummies() is used for One-Hot Encoding.
+
+## Output
+
+Gender:
+Female → 0
+Male → 1
+
+Cities:
+Delhi
+Jaipur
+Mumbai
+
+One-Hot Encoding created three new columns:
+
+- City_Delhi
+- City_Jaipur
+- City_Mumbai
