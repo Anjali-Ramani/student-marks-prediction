@@ -407,3 +407,29 @@ One-Hot Encoding created three new columns:
 - City_Delhi
 - City_Jaipur
 - City_Mumbai
+
+# 📅 Day 14 - Train, Validation and Test Split
+
+## Topics Learned
+
+- Training Set
+- Validation Set
+- Test Set
+- Three-way Data Splitting
+- train_test_split()
+
+## Key Points
+
+- Training Set is used to train the model.
+- Validation Set is used to compare models and tune hyperparameters.
+- Test Set is used only for the final evaluation.
+- The Test Set should remain unseen until the model is finalized.
+- We can create Train, Validation and Test sets by calling train_test_split() twice.
+
+## Output
+
+Total Samples = 10
+
+Training Set = 7
+Validation Set = 1
+Test Set = 2
