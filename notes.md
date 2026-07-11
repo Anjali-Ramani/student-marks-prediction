@@ -433,3 +433,27 @@ Total Samples = 10
 Training Set = 7
 Validation Set = 1
 Test Set = 2
+
+# 📅 Day 15 - Cross Validation
+
+## Topics Learned
+
+- Cross Validation
+- K-Fold Cross Validation
+- cross_val_score()
+- R² Score
+
+## Key Points
+
+- Cross Validation evaluates the model multiple times.
+- K represents the number of folds.
+- Each fold becomes the Test Set exactly once.
+- The final performance is the average score of all folds.
+- Cross Validation provides a more reliable estimate than a single Train-Test Split.
+- Very small datasets may produce unstable or negative R² scores.
+
+## Output
+
+- Performed 5-Fold Cross Validation.
+- Obtained one R² score for each fold.
+- Calculated the average R² score using scores.mean().
