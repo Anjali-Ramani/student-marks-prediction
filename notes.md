@@ -457,3 +457,29 @@ Test Set = 2
 - Performed 5-Fold Cross Validation.
 - Obtained one R² score for each fold.
 - Calculated the average R² score using scores.mean().
+
+# 📅 Day 16 - Overfitting, Underfitting, Bias & Variance
+
+## Topics Learned
+
+- Underfitting
+- Good Fit
+- Overfitting
+- Bias
+- Variance
+
+## Key Points
+
+- Underfitting occurs when the model is too simple.
+- Overfitting occurs when the model memorizes the training data.
+- A Good Fit model learns the underlying pattern and generalizes well.
+- High Bias leads to Underfitting.
+- High Variance leads to Overfitting.
+- Overfitting can be reduced using Cross Validation, Regularization, more training data, simpler models, and feature selection.
+
+## Graph Observation
+
+- Green Line → Good Fit (Linear Regression)
+- Red Curve → Overfitting (Polynomial Regression)
+- Good Fit captures the overall trend.
+- Overfitting tries to fit almost every training point.
