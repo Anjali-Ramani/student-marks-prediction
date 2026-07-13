@@ -483,3 +483,33 @@ Test Set = 2
 - Red Curve → Overfitting (Polynomial Regression)
 - Good Fit captures the overall trend.
 - Overfitting tries to fit almost every training point.
+
+# 📅 Day 17 - Regularization (Ridge & Lasso)
+
+## Topics Learned
+
+- Regularization
+- Ridge Regression (L2)
+- Lasso Regression (L1)
+- Alpha Parameter
+
+## Key Points
+
+- Regularization helps reduce overfitting.
+- Ridge (L2) keeps all features but reduces coefficient values.
+- Lasso (L1) can make some coefficients exactly zero, performing feature selection.
+- A larger alpha means stronger regularization.
+- Ridge helps create a more stable model.
+
+## Output
+
+Linear Regression Coefficient:
+9.1071
+
+Ridge Regression Coefficient:
+8.7931
+
+Observation:
+
+- Ridge coefficient is smaller than Linear Regression.
+- Regularization reduces the impact of features without removing them.
