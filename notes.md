@@ -513,3 +513,16 @@ Observation:
 
 - Ridge coefficient is smaller than Linear Regression.
 - Regularization reduces the impact of features without removing them.
+
+# Day 18 - Decision Tree
+
+- Decision Tree is a supervised machine learning algorithm.
+- It makes predictions by asking a series of Yes/No questions.
+- The first node is called the Root Node.
+- Internal Nodes contain decision rules.
+- Leaf Nodes contain the final prediction.
+- Decision Trees can be used for both Classification and Regression.
+- Gini Index measures the impurity of a node.
+- Gini = 0 means a pure node.
+- Decision Trees are easy to understand and visualize.
+- They can overfit if they become too deep.
