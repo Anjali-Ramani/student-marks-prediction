@@ -526,3 +526,15 @@ Observation:
 - Gini = 0 means a pure node.
 - Decision Trees are easy to understand and visualize.
 - They can overfit if they become too deep.
+
+# Day 19 - Random Forest
+
+- Random Forest is an ensemble learning algorithm.
+- It is made up of multiple Decision Trees.
+- Each Decision Tree makes its own prediction.
+- For classification, Random Forest uses majority voting.
+- For regression, it uses the average prediction.
+- Random Forest reduces overfitting compared to a single Decision Tree.
+- It generally provides better accuracy and more reliable predictions.
+- The parameter `n_estimators` specifies the number of Decision Trees.
+- It works for both Classification and Regression problems.
