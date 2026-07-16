@@ -538,3 +538,13 @@ Observation:
 - It generally provides better accuracy and more reliable predictions.
 - The parameter `n_estimators` specifies the number of Decision Trees.
 - It works for both Classification and Regression problems.
+
+# Day 20 - Naive Bayes
+
+- Naive Bayes is a probability-based machine learning algorithm.
+- It assumes that features are independent of each other.
+- It predicts the class with the highest probability.
+- Gaussian Naive Bayes is commonly used for numerical data.
+- Naive Bayes is widely used in spam detection, sentiment analysis, and text classification.
+- It is simple, fast, and works well on small datasets.
+- It performs both training and prediction very efficiently.
