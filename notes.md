@@ -548,3 +548,13 @@ Observation:
 - Naive Bayes is widely used in spam detection, sentiment analysis, and text classification.
 - It is simple, fast, and works well on small datasets.
 - It performs both training and prediction very efficiently.
+
+# Day 21 - K-Nearest Neighbors (KNN)
+
+- KNN stands for K-Nearest Neighbors.
+- It predicts by looking at the nearest data points.
+- K is the number of nearest neighbors.
+- The class with the majority of neighbors becomes the prediction.
+- KNN uses distance (usually Euclidean Distance) to find similar data points.
+- It is simple and effective for small datasets.
+- Feature scaling is important because KNN depends on distance.
