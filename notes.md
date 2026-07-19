@@ -568,3 +568,13 @@ Observation:
 - It tries to maximize the margin between different classes.
 - The nearest data points to the boundary are called Support Vectors.
 - SVM performs well on small and medium-sized datasets.
+
+# Day 23 - Model Evaluation Metrics
+
+- Accuracy measures overall correctness of the model.
+- Precision tells how many predicted positive cases are actually positive.
+- Recall tells how many actual positive cases were correctly identified.
+- F1 Score is the balance between Precision and Recall.
+- Accuracy is useful when classes are balanced.
+- Recall is very important in medical diagnosis because missing a positive case can be dangerous.
+- Precision is important when false positives are costly.
