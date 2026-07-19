@@ -558,3 +558,13 @@ Observation:
 - KNN uses distance (usually Euclidean Distance) to find similar data points.
 - It is simple and effective for small datasets.
 - Feature scaling is important because KNN depends on distance.
+
+# Day 22 - Support Vector Machine (SVM)
+
+- SVM stands for Support Vector Machine.
+- It is a supervised machine learning algorithm.
+- It is mainly used for classification problems.
+- SVM finds the best boundary called a Hyperplane.
+- It tries to maximize the margin between different classes.
+- The nearest data points to the boundary are called Support Vectors.
+- SVM performs well on small and medium-sized datasets.
