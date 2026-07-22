@@ -587,3 +587,12 @@ Observation:
 - Feature Transformation includes scaling, normalization, and encoding.
 - Removing unnecessary features reduces noise and improves model performance.
 - Good features often improve accuracy more than changing the algorithm.
+
+# Day 25 - Bias vs Variance
+
+- Bias measures how simple the model is.
+- High Bias causes Underfitting.
+- Variance measures how sensitive the model is to training data.
+- High Variance causes Overfitting.
+- A good machine learning model should have Low Bias and Low Variance.
+- Overfitting can be reduced using Regularization, Cross Validation, more training data, and simpler models.
