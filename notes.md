@@ -596,3 +596,18 @@ Observation:
 - High Variance causes Overfitting.
 - A good machine learning model should have Low Bias and Low Variance.
 - Overfitting can be reduced using Regularization, Cross Validation, more training data, and simpler models.
+
+# Day 26 - Machine Learning Pipeline
+
+- A Machine Learning Pipeline is the complete workflow of building an ML model.
+- Steps:
+  1. Data Collection
+  2. Data Preprocessing
+  3. Feature Selection
+  4. Train-Test Split
+  5. Model Training
+  6. Model Evaluation
+  7. Prediction
+- Train-Test Split helps evaluate the model on unseen data.
+- Accuracy measures how many predictions are correct.
+- A well-designed pipeline makes ML projects organized and reliable.
