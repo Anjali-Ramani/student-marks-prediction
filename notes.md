@@ -578,3 +578,12 @@ Observation:
 - Accuracy is useful when classes are balanced.
 - Recall is very important in medical diagnosis because missing a positive case can be dangerous.
 - Precision is important when false positives are costly.
+
+# Day 24 - Feature Engineering
+
+- Feature Engineering improves the quality of input data.
+- Feature Selection means choosing only useful features.
+- Feature Creation means creating new features from existing ones.
+- Feature Transformation includes scaling, normalization, and encoding.
+- Removing unnecessary features reduces noise and improves model performance.
+- Good features often improve accuracy more than changing the algorithm.
