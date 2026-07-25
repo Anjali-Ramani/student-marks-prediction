@@ -622,3 +622,14 @@ Observation:
 - df.describe() provides statistical information like mean, min, max, and standard deviation.
 - df.isnull().sum() checks for missing values.
 - EDA helps identify missing values, outliers, and data quality issues.
+
+# Day 28 - Loading CSV Files
+
+- CSV stands for Comma-Separated Values.
+- Real-world datasets are commonly stored in CSV files.
+- pd.read_csv() is used to load a CSV file into a Pandas DataFrame.
+- df.head() displays the first 5 rows.
+- df.info() provides dataset information and data types.
+- df.describe() shows statistical summaries.
+- df.isnull().sum() checks for missing values.
+- CSV files make it easy to work with large datasets.
