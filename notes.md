@@ -611,3 +611,14 @@ Observation:
 - Train-Test Split helps evaluate the model on unseen data.
 - Accuracy measures how many predictions are correct.
 - A well-designed pipeline makes ML projects organized and reliable.
+
+# Day 27 - Exploratory Data Analysis (EDA)
+
+- EDA stands for Exploratory Data Analysis.
+- EDA helps us understand the dataset before training a model.
+- df.head() displays the first 5 rows.
+- df.tail() displays the last 5 rows.
+- df.info() shows dataset information, data types, and non-null values.
+- df.describe() provides statistical information like mean, min, max, and standard deviation.
+- df.isnull().sum() checks for missing values.
+- EDA helps identify missing values, outliers, and data quality issues.
