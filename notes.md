@@ -645,3 +645,12 @@ Observation:
 - plt.grid(True) adds grid lines for better readability.
 - plt.show() displays the graph.
 - A graph helps identify trends and relationships in data.
+
+# Day 30 - Bar Chart and Scatter Plot
+
+- Bar Chart is used to compare values between different categories.
+- plt.bar() creates a Bar Chart.
+- Scatter Plot is used to show the relationship between two numerical variables.
+- plt.scatter() creates a Scatter Plot.
+- Bar Charts compare categories, while Scatter Plots identify relationships.
+- Choosing the correct graph helps analyze data more effectively.
