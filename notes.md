@@ -633,3 +633,15 @@ Observation:
 - df.describe() shows statistical summaries.
 - df.isnull().sum() checks for missing values.
 - CSV files make it easy to work with large datasets.
+
+# Day 29 - Data Visualization with Matplotlib
+
+- Data Visualization represents data using graphs and charts.
+- Matplotlib is a Python library used for visualization.
+- plt.plot() creates a line graph.
+- plt.title() adds a graph title.
+- plt.xlabel() labels the X-axis.
+- plt.ylabel() labels the Y-axis.
+- plt.grid(True) adds grid lines for better readability.
+- plt.show() displays the graph.
+- A graph helps identify trends and relationships in data.
