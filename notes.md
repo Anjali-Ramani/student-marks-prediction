@@ -665,3 +665,17 @@ Observation:
 - A Box Plot helps detect outliers.
 - Outliers are values very different from the rest of the dataset.
 - Identifying outliers helps improve machine learning models.
+
+# Day 32 - Correlation & Heatmap
+
+- Correlation measures the relationship between two variables.
+- Correlation values range from -1 to +1.
+- +1 means strong positive correlation.
+- -1 means strong negative correlation.
+- 0 means no correlation.
+- df.corr() calculates the correlation matrix.
+- Heatmap is used to visualize the correlation matrix.
+- annot=True displays the values inside each box.
+- cmap="coolwarm" provides color visualization.
+- Red indicates strong positive correlation.
+- The diagonal values are always 1 because every feature is perfectly correlated with itself.
