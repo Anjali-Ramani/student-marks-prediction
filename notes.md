@@ -654,3 +654,14 @@ Observation:
 - plt.scatter() creates a Scatter Plot.
 - Bar Charts compare categories, while Scatter Plots identify relationships.
 - Choosing the correct graph helps analyze data more effectively.
+
+# Day 31 - Histogram & Box Plot
+
+- Histogram shows the distribution of numerical data.
+- plt.hist() creates a Histogram.
+- bins decide how the data is grouped.
+- Box Plot shows the spread of data.
+- plt.boxplot() creates a Box Plot.
+- A Box Plot helps detect outliers.
+- Outliers are values very different from the rest of the dataset.
+- Identifying outliers helps improve machine learning models.
