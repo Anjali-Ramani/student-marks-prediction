@@ -679,3 +679,13 @@ Observation:
 - cmap="coolwarm" provides color visualization.
 - Red indicates strong positive correlation.
 - The diagonal values are always 1 because every feature is perfectly correlated with itself.
+
+# Day 33 - Feature Scaling
+
+- Feature Scaling brings all features to a similar scale.
+- It improves the performance of many machine learning algorithms.
+- StandardScaler makes the mean approximately 0 and the standard deviation approximately 1.
+- StandardScaler can produce negative values.
+- MinMaxScaler scales values between 0 and 1.
+- MinMaxScaler is useful when normalized values are required.
+- KNN, SVM, and Logistic Regression often perform better after feature scaling.
