@@ -689,3 +689,13 @@ Observation:
 - MinMaxScaler scales values between 0 and 1.
 - MinMaxScaler is useful when normalized values are required.
 - KNN, SVM, and Logistic Regression often perform better after feature scaling.
+
+# Day 34 - Hyperparameter Tuning (GridSearchCV)
+
+- Hyperparameters are settings chosen before training a model.
+- GridSearchCV automatically finds the best hyperparameter values.
+- It tests multiple parameter combinations.
+- best*params* returns the best hyperparameter.
+- best*score* returns the best average cross-validation score.
+- Cross-validation divides the dataset into multiple folds for reliable evaluation.
+- Hyperparameter tuning helps improve model performance.
