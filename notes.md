@@ -709,3 +709,13 @@ Observation:
 - "rb" means Read Binary mode.
 - Saved models can make predictions without retraining.
 - Saving models reduces computation time and is used in real-world ML applications.
+
+# Day 36 - Flask Basics
+
+- Flask is a lightweight Python web framework.
+- It is used to build web applications.
+- app = Flask(**name**) creates a Flask application.
+- @app.route("/") creates the home page.
+- app.run(debug=True) starts the Flask server.
+- localhost (127.0.0.1) is used to test the application on our own computer.
+- Flask is commonly used to deploy Machine Learning models.
