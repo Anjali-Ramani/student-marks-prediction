@@ -699,3 +699,13 @@ Observation:
 - best*score* returns the best average cross-validation score.
 - Cross-validation divides the dataset into multiple folds for reliable evaluation.
 - Hyperparameter tuning helps improve model performance.
+
+# Day 35 - Model Saving using Pickle
+
+- Pickle is used to save and load trained machine learning models.
+- pickle.dump() saves the trained model to a .pkl file.
+- pickle.load() loads the saved model.
+- "wb" means Write Binary mode.
+- "rb" means Read Binary mode.
+- Saved models can make predictions without retraining.
+- Saving models reduces computation time and is used in real-world ML applications.
