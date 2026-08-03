@@ -719,3 +719,12 @@ Observation:
 - app.run(debug=True) starts the Flask server.
 - localhost (127.0.0.1) is used to test the application on our own computer.
 - Flask is commonly used to deploy Machine Learning models.
+
+# Day 37 - Connecting ML Model with Flask
+
+- Flask can load a saved machine learning model using Pickle.
+- pickle.load() loads the trained model from a .pkl file.
+- model.predict() is used to make predictions.
+- Flask sends input to the model and displays the prediction in the browser.
+- Loading a saved model is faster than training it every time.
+- This is the basic workflow used in many ML web applications.
