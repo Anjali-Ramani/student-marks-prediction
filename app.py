@@ -4,14 +4,13 @@ import numpy as np
 
 app = Flask(__name__)
 
+# Load saved model
 with open("student_model.pkl", "rb") as file:
     model = pickle.load(file)
-
 
 @app.route("/")
 def home():
     return render_template("index.html")
-
 
 @app.route("/predict", methods=["POST"])
 def predict():
@@ -24,12 +23,11 @@ def predict():
     prediction = model.predict(sample)
 
     if prediction[0] == 1:
-        result = "PASS 🎉"
+        result = "🎉 Prediction: PASS"
     else:
-        result = "FAIL ❌"
+        result = "❌ Prediction: FAIL"
 
-    return f"Prediction: {result}"
-
+    return render_template("index.html", prediction=result)
 
 if __name__ == "__main__":
     app.run(debug=True)

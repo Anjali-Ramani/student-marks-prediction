@@ -736,3 +736,11 @@ Observation:
 - request.form is used to receive data entered by the user.
 - POST method sends form data securely to the Flask application.
 - User input makes the ML application interactive instead of using hardcoded values.
+
+# Day 39 - Jinja Templates
+
+- Jinja is Flask's template engine.
+- render_template() sends data from Flask to HTML.
+- {{ variable }} displays a variable in HTML.
+- {% if %} is used for conditional statements in Jinja.
+- Showing predictions on the same webpage improves user experience.
