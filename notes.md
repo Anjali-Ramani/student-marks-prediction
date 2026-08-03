@@ -728,3 +728,11 @@ Observation:
 - Flask sends input to the model and displays the prediction in the browser.
 - Loading a saved model is faster than training it every time.
 - This is the basic workflow used in many ML web applications.
+
+# Day 38 - HTML Forms in Flask
+
+- HTML files are stored inside the templates folder.
+- render_template() is used to display an HTML page.
+- request.form is used to receive data entered by the user.
+- POST method sends form data securely to the Flask application.
+- User input makes the ML application interactive instead of using hardcoded values.
