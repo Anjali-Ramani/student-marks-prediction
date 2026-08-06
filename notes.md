@@ -744,3 +744,11 @@ Observation:
 - {{ variable }} displays a variable in HTML.
 - {% if %} is used for conditional statements in Jinja.
 - Showing predictions on the same webpage improves user experience.
+
+# Day 40 - CSS in Flask
+
+- CSS is used to style HTML pages.
+- CSS files are stored inside the static folder.
+- Flask loads CSS using url_for().
+- The <link> tag connects the CSS file with HTML.
+- CSS improves the appearance and user experience of a web application.
